@@ -1,0 +1,71 @@
+* { 
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box; 
+} 
+
+html, body {
+    height: 100%;
+}
+
+.sky {
+    height: 40%; 
+    background-color: #87ceeb;
+}
+
+.sky img:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 30px;
+}
+
+.sky img:nth-child(2) {
+    position: absolute;
+    top: 30px;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.sky img:nth-child(3) {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+}
+
+.grass {
+    height: 20%; 
+    background-color: #0eac0e;
+}
+
+.road { 
+    height: 40%; 
+    background-color: #808080;
+    border-top: 10px solid #9b9898;
+    position: relative;
+}
+    
+.line {  
+    height: 50%; 
+    border-bottom: dashed 6px white;
+}
+
+.mario {
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    animation-name: mario;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+ 
+@keyframes mario { 
+    from {
+        left: 0;
+    } 
+    to {
+        left: 90%;
+    } 
+} 
+
+
