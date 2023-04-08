@@ -1,0 +1,67 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    background-color: beige;
+}
+
+/* Team
+===================*/
+.team {
+    max-width: 1400px;
+    margin: 50px auto 0;
+    padding: 40px 0;
+    background-color: #fff;
+}
+
+.team__inner {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    border-bottom: 1px solid #6c7279;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team__item {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+}
+
+.team__photo {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.team__name {
+    margin-bottom: 8px;
+
+    font-size: 22px;
+    color: #2d3033;
+}
+
+.team__prof {
+    margin-bottom: 15px;
+
+    font-size: 13px;
+    color: #e84545;
+    text-transform: uppercase;
+}
+
+.team__text {
+    margin-bottom: 20px;
+
+    font-size: 14px;
+    line-height: 1.5;
+    color: #6c7279;
+}
