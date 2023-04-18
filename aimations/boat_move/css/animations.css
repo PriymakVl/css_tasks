@@ -1,43 +1,49 @@
-/*	Animations
------------------------------------------- */
-
 body {
-	-webkit-animation: bg-move 8s ease-out forwards;
+	animation-name: bg-move;
+	animation-duration: 8s;
+	animation-timing-function: ease-out;
+	animation-fill-mode: forwards;
 }
+
 .boat {
-	-webkit-animation: rock-boat 3s ease-in-out infinite;
+	animation-name: rock-boat;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+	animation-iteration-count: infinite;
 }
+
 .boat::after {
-	-webkit-animation: steam 4s 2s infinite;
-}
-.mike {
-	-webkit-animation: mike-move 6s 6s ease-out forwards,
-	                   mike-float 3.2s infinite;
-}
-
-
-/*	Keyframes - WebKit only
------------------------------------------- */
-
-@-webkit-keyframes rock-boat {
-	50%  { -webkit-transform: rotate(-5deg) translateY(-10px); }
+	animation-name: steam;
+	animation-duration: 4s;
+	animation-delay: 2s;
+	animation-iteration-count: infinite;
 }
 
-@-webkit-keyframes steam {
+.frog {
+	animation: frog-move 6s 6s ease-out forwards,
+	            frog-float 3.2s infinite;
+}
+
+
+@keyframes rock-boat {
+	50%  { transform: rotate(-5deg) translateY(-10px); }
+}
+
+@keyframes steam {
 	40%,
 	60%  { opacity: 1; }
-	100% { -webkit-transform: translate(-15%, -35%) rotateZ(20deg); }
+	100% { transform: translate(-15%, -35%) rotateZ(20deg); }
 }
 
-@-webkit-keyframes bg-move {
+@keyframes bg-move {
 	0%   { background-position:  100% -560px; }
 	100% { background-position: -350% -460px; }
 }
 
-@-webkit-keyframes mike-move {
+@keyframes frog-move {
 	100% { left: 12%; }
 }
 
-@-webkit-keyframes mike-float {
-	50% { -webkit-transform: rotateZ(5deg) translateY(-5px); }
+@keyframes frog-float {
+	50% { transform: rotateZ(5deg) translateY(-5px); }
 }
