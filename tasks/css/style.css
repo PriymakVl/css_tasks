@@ -11,6 +11,11 @@
     max-width: 100%;
 }
 
+.list-group {
+    margin-top: 5px;
+}
+
 .list-group-item {
     font-size: 1.3rem;
 }
+
