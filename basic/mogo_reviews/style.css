@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+.reviews {
+    max-width: 1150px;
+    margin: 50px auto 0;
+    background-color: #fff;
+    position: relative;
+}
+
+.content {
+    margin: 0 100px 0 300px;
+    padding: 50px 0;
+}
+
+.text {
+    color: #999;
+    font-size: 24px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    line-height: 36px;
+    margin-bottom: 20px;
+}
+
+.author {
+    font-family: 'Kaushan Script', cursive;
+    color: #333;
+    font-size: 24px;
+    position: relative;
+    margin-left: 70px;
+}
+
+.author::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: -70px;
+    background-color: #f38181;
+    width: 60px;
+    height: 3px;
+}
+
+.photo {
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.photo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.arrow-left {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.arrow-right {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateX(-50%);
+}
