@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.reviews {
+    max-width: 1700px;
+    margin: 50px auto 0 auto;
+    background-color: #53354a;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+
+.photo {
+    width: 670px;
+    position: relative;
+    margin-right: 80px;
+    overflow: hidden;
+}
+
+.photo img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.content {
+    width: 510px;
+    padding-top: 110px;
+}
+
+.text {
+    margin-bottom: 25px;
+    font-family: 'Cardo', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.2;
+    color: #fff;
+}
+
+.author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+.dots {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    opacity: .5;
+    cursor: pointer;
+}
+
+.dot:hover {
+    opacity: 1;
+}
+
+.dot.active {
+    opacity: 1;
+}
+
