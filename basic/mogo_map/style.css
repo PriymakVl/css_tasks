@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.map {
+	max-width: 1920px;
+	height: 200px;
+	margin-top: 50px;
+	background: url(img/bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.inner {
+	height: 100%;
+	padding-top: 60px;
+	background: #fff;
+	opacity: 85%;
+	text-align: center;
+}
+
+.icon {
+	margin-bottom: 10px;
+}
+
+.title {
+	text-align: center;
+	text-transform: uppercase;
+	color: #f38181;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.title:after {
+	content: '';
+	display: block;
+	width: 60px;
+	border: 3px solid #f38181;
+	margin: 18px auto 0;
+}
