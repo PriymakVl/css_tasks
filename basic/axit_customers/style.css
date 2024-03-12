@@ -1,0 +1,44 @@
+.container {
+	width: 1400px;
+	height: 320px;
+	background-color: green;
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background-image: url(bg.jpg);
+}
+.title {
+	font-size: 36px;
+	color: #fff;
+	font-family: "Raleway", sans-serif;
+}
+.title:after { 
+	content: "";
+	display: block;
+	width: 65px;
+	height: 2px;
+	background-color: #fff;
+	margin: 30px auto 35px auto;
+}
+.text {
+	font-size: 16px;
+	color: #fff;
+	font-family: "Raleway", sans-serif;
+	font-weight: 300;
+}
+.btn {
+	font-size: 15px;
+	color: #fff;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	border: solid 2px #fff;
+	padding: 15px 30px 15px 30px;
+	margin-top: 50px;
+	transition: 0.5s;
+}
+.btn:hover {
+	opacity: 0.6;
+}
