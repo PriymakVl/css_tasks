@@ -1,16 +1,16 @@
-whatever you use to browse 
-basically by using 
-we can respond to user actions 
-whenever somebody interacts with our site
-it's not very pretty 
-least though by applying 
-but unfortunately it still
-this calculator can perform actions
-everything you need to know 
-or if you need a refresher 
-you could probably still get by watching 
-walk you through both 
-just for convenience
+the next attribute we need
+file mine will be named
+style sheet is in charge of the overall appearance
+file is in charge of the interactivity
+altogether we have structure
+rearrange these tabs however you like
+I switch back and forth between
+I tend to put them right next to each other
+do whatever's most convenient for you
+generate the necessary setup
+you can type exclamation point then hit tab
+that's all we'll need for now
+typically used as the home page
 
 
 
