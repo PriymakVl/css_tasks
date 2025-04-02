@@ -1,0 +1,28 @@
+body {
+    background-color: cadetblue;
+}
+.container {
+    max-width: 1920px;
+    padding: 30px 0 40px 0;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.images {
+    text-align: center;
+}
+
+img {
+    height: 255px;
+    margin-right: 40px;
+}
+
+.end {
+    margin-right: 0px;
+}
